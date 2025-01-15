@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "mark",
+						"type": "uint256"
+					}
+				],
+				"name": "grading",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/grade.sol": "Grade"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/grade.sol": {
+			"keccak256": "0x7ea0195926e3ed907a4ea94ecfb902b6bd7a2de590395777c777e605f2308e77",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://aa193e994fb2685a3c6a741fd850e16265e70e43efded4f6c4a436892e7116e7",
+				"dweb:/ipfs/QmPHEveeuN5d91rMYN3nXjGpDf2cxUg1eAZf8Jb3gNdwkF"
+			]
+		}
+	},
+	"version": 1
+}
